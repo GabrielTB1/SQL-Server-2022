@@ -3,8 +3,8 @@
 Identificando colunas necessárias e tipo dos dados que serão inseridos:
 
 CPF - 11 digitos, cadeia de numeros
-Nome completo - cadeia de caracteres variavel
-Endereço completo - cadeia de caracteres variavel
+Nome completo - cadeia de caracteres variável
+Endereço completo - cadeia de caracteres variável
 Data de nascimento - Data
 Idade - numero inteiro
 Sexo - sigla de sexo
@@ -31,4 +31,29 @@ CREATE TABLE [TABELA DE CLIENTES](
 [VOLUME MINIMO] [FLOAT],
 [PRIMEIRA COMPRA] [BIT]
 
-)
+);
+
+/*
+
+Identificando colunas necessárias e tipo dos dados que serão inseridos:
+
+código do produto - cadeia de caracteres variável - Chave das consultas
+nome do produto - cadeia de caracteres variável
+embalagem -  cadeia de caracteres variável
+tamanho - cadeia de caracteres variável
+sabor - cadeia de caracteres variável
+preço de lista - valor monetário
+
+*/
+
+USE [SUCOS_VENDAS]
+CREATE TABLE [TABELA DE PRODUTOS](
+
+[CODIGO DO PRODUTO] [VARCHAR] (20) NOT NULL PRIMARY KEY, 
+[NOME DO PRODUTO] [VARCHAR] (50), 
+[EMBALAGEM] [VARCHAR] (50), 
+[TAMANHO] [VARCHAR] (50), 
+[SABOR] [VARCHAR] (50), 
+[PRECO DE LISTA] [SMALLMONEY]
+
+);
