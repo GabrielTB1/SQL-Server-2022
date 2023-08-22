@@ -1,7 +1,7 @@
 # SQL Server 2022
 <h1>Conhecendo ferramentas e estruturações em SQL Server.</h1> 
 
-> Status do Projeto: :warning: (Concluído)
+> Status do Projeto: :warning: (Em andamento)
 
 ### Tópicos 
 
@@ -37,14 +37,17 @@
 
 ## Pré-requisitos
 
-:warning: [VScode](https://code.visualstudio.com/download)
+:warning: [SQL Server](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads) [Projeto rodado em instância local SQL Server 2022]
 
-
-
+:warning: [SQL Server Management Studio (SSMS)](https://learn.microsoft.com/pt-br/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16) [Ferramenta Utilizada no projeto para criação, gerenciamento e consulta]
 
 ## Como rodar a aplicação :arrow_forward:
 
+🥉 Primeiramente será necessario criar ou conectar a uma instância do SQL Server para poder utilizar os Scripts inclusos nesse projeto.
 
+🥈 Após conectado a um banco de dados será possível utilizar os comandos referenciados nos arquivos SQL deste repositório (Utilizar arquivos conforme sequência 1,2,3,4,5...).
+
+🥇 Pronto agora você possui um banco de dados operacional e conhece um pouco mais sobre o SQL e suas aplicações.
 
 
 ## Linguagens, dependencias e libs utilizadas :books:
