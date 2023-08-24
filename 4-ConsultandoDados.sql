@@ -12,3 +12,6 @@ SELECT [CODIGO DO PRODUTO], [NOME DO PRODUTO], [EMBALAGEM], [TAMANHO], [SABOR], 
 
 -- Realizando filtro de colunas retornadas e ordenando pelo nome --
 SELECT [ESTADO], [NOME] FROM [TABELA DE CLIENTES] ORDER BY [NOME];
+
+-- Utilizando SELECT com "apelido" nas colunas --
+SELECT [NOME] AS [NOME DO CLIENTE], [CPF], [ESTADO] AS [UF] FROM [TABELA DE CLIENTES];
