@@ -18,5 +18,5 @@ SELECT [NOME] AS [NOME DO CLIENTE], [CPF], [ESTADO] AS [UF] FROM [TABELA DE CLIE
 
 -- Consulta de sabores com repetição dos dados --
 SELECT [SABOR] FROM [TABELA DE PRODUTOS];
--- Utilização do SELECT DISTINCT nas consultas para filtrar apenas os sabores distintos --
+-- Utilização do SELECT DISTINCT nas consultas para filtrar apenas os valores distintos --
 SELECT DISTINCT [SABOR] FROM [TABELA DE PRODUTOS];
