@@ -1,7 +1,7 @@
 # SQL Server 2022
 <h1>Conhecendo ferramentas e estruturações em SQL Server.</h1> 
 
-> Status do Projeto: :warning: (Em andamento)
+> Status do Projeto: :heavy_check_mark: (Concluído)
 
 ### Tópicos 
 
@@ -29,11 +29,11 @@
 
 :heavy_check_mark: Utilizando três diferentes maneiras de inserir informações em tabelas.
 
-:warning: Consultando de informações específicas usando filtros com WHERE.
+:heavy_check_mark: Consultando de informações específicas usando filtros com WHERE.
 
-:warning: Filtrando a consulta usando operadores lógicos em diferentes tipos de colunas.
+:heavy_check_mark: Filtrando a consulta usando operadores lógicos em diferentes tipos de colunas.
 
-:warning: Entendendo o processo de deletar e atualizar informações usando SQL.
+:heavy_check_mark: Entendendo o processo de deletar e atualizar informações usando SQL.
 
 ## Pré-requisitos
 
