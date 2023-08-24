@@ -27,7 +27,7 @@
 
 :heavy_check_mark: Definindo a chave primária das tabelas.
 
-:warning: Utilizando três diferentes maneiras de inserir informações em tabelas.
+:heavy_check_mark: Utilizando três diferentes maneiras de inserir informações em tabelas.
 
 :warning: Consultando de informações específicas usando filtros com WHERE.
 
