@@ -34,9 +34,17 @@ INSERT INTO [TABELA DE CLIENTES] VALUES
 ('00384393431', 'João da Silva', 'Rua Projetada A', 'Número 233', 'Copacabana', 'RJ', '20000000','1965-03-21', 57, 'M', 200000, 3000.30, 1),
 ('00384393555', 'Maria Clara', 'Rua Projetada A', 'Número 233', 'Copacabana', 'RJ', '20000000', '1975-03-21',47, 'F', 200000, 3000.30, 0);
 
+-- Utilizando Insert agrupado e definindo a ordem de inserção dos campos --
+
 INSERT INTO [TABELA DE VENDEDORES]
 ([MATRICULA], [NOME], [PERCENTUAL COMISSÃO])
 VALUES
 ('00236','Cláudia Morais',0.08),
 ('00237','Marcela Ferreira',0.09),
 ('00238','Márcio Almeida',0,08);
+
+INSERT INTO [TABELA DE PRODUTOS]
+([CODIGO DO PRODUTO], [NOME DO PRODUTO], [EMBALAGEM], [TAMANHO], [PRECO DE LISTA], [SABOR])
+VALUES
+('5449310', 'Frescor do Verão - 350 ml - Limão', 'Lata', '350 ml',2.45, 'Limão'),
+('1078680', 'Frescor do Verão - 350 ml - Manga', 'Lata', '350 ml',3.18, 'Manga');
