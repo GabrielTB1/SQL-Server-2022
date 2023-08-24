@@ -23,9 +23,9 @@
 
 :heavy_check_mark: Conhecendo a instalação dos componentes necessários para utilizar o SQL Server 22.
 
-:warning: Entendendo a criação da base de dados e das tabelas.
+:heavy_check_mark: Entendendo a criação da base de dados e das tabelas.
 
-:warning: Definindo a chave primária das tabelas.
+:heavy_check_mark: Definindo a chave primária das tabelas.
 
 :warning: Utilizando três diferentes maneiras de inserir informações em tabelas.
 
