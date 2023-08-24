@@ -15,3 +15,8 @@ SELECT [ESTADO], [NOME] FROM [TABELA DE CLIENTES] ORDER BY [NOME];
 
 -- Utilizando SELECT com "apelido" nas colunas --
 SELECT [NOME] AS [NOME DO CLIENTE], [CPF], [ESTADO] AS [UF] FROM [TABELA DE CLIENTES];
+
+-- Consulta de sabores com repetição dos dados --
+SELECT [SABOR] FROM [TABELA DE PRODUTOS];
+-- Utilização do SELECT DISTINCT nas consultas para filtrar apenas os sabores distintos --
+SELECT DISTINCT [SABOR] FROM [TABELA DE PRODUTOS];
