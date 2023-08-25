@@ -1,4 +1,4 @@
-# SQL Server 2022
+# SQL Server 2022 Conhecendo SQL
 <h1>Conhecendo ferramentas e estruturações em SQL Server.</h1> 
 
 > Status do Projeto: :heavy_check_mark: (Concluído)
